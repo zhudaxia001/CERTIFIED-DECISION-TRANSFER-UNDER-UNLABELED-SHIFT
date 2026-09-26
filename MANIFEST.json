@@ -1,0 +1,139 @@
+{
+  "code": {
+    "experiments/analyze_fbeta_sensitivity.py": "b988bcb05a9cf85d780718f1892785b6dcd121bd9bb9e54a0371f41dc1177dfb",
+    "experiments/make_auc_depth_crossover.py": "aca2de1a2129d8424a37fb55f3990b6968d6aa85e649b5ab2fed7e799e3b8102",
+    "experiments/audit_vertical_domain_results.py": "9183b158a66b9fbfff645e24582212f98b89cb856b29bf15d7b787951e40bba1",
+    "experiments/extract_wilds_vertical_features.py": "9fe723ab89b0e0b537c7ae57a94ef5fcb1316487f5b347135d76d956e9a91a9a",
+    "experiments/extract_camelyon17_deep_features.py": "58cb16ed13d648a724d123fb2308d9df5c942c738c05b0d36a099bffc709f276",
+    "experiments/finetune_wilds_modernbert.py": "8d38c377dca3ebd78c9d7c945e51525b1f1f0eeac08557fe9d86c5cd081307dd",
+    "experiments/bench_wilds_crm_subgroups.py": "5bd09313f1ff9984a2c53c8d4fe70f85748714c7c3a3e75fda976a081a218376",
+    "experiments/bench_coco_crm_certificate.py": "0af7b1ef4f88184a7ecb56e141c0225dc83f7a6366f1c66132a5f47ed08363e8",
+    "experiments/bench_coco_deep_transfer.py": "bdd0b59ca78892b0b917e8e417b5c7b34fe23d3052b3db9588d43bae64f8a0b4",
+    "experiments/extract_independent_vision_features.py": "815a0149c94a4d50ef6246dc553ac10689b929924b447e3b2f61913fd91a57db",
+    "experiments/extract_coco_convnext_features.py": "2914f407b83bb6b107e6efc04d3eaf00c53e2985903d1d7196467c8bfdd84e5c",
+    "experiments/extract_coco_deep_features.py": "20a6c0d598702cafa7762a3bec6450204f14c9d21d285156d890233976c7c298",
+    "experiments/finetune_coco_deep_features.py": "ef3cf3c012c3861732570267e75f3d234531ea10fe78d8e05438095512e85b21",
+    "experiments/extract_goemo_qwen.py": "5b9e049a22131049d33178713570b993179e32595bb2228a178e36d0523576c7",
+    "experiments/build_goemo_tfidf_scores.py": "651191fb812d20441eda7f73d07aa129ef7e7fdd278af85fadcee77da418ccf1",
+    "experiments/finetune_goemo_roberta.py": "b67b623e2128cd0c43da4ebe363708bad4137af9de9277651a762b4ad4be68db",
+    "experiments/test_underfill_certificate.py": "c79fe9332ce65a157043a17a090ccd7bd3ed1e767bc3984af44dc0f21e1d5529",
+    "experiments/test_risk_controlled_postprocessing.py": "a94fef2903cb08ad8efecf7b2d588012e59aeec5c7f426951d5665aae85ed3c6",
+    "experiments/risk_controlled_postprocessing.py": "c657c11685fa20540d150bfce468fb94caaba7f6876c34cd8fbcdc25472ab0ea",
+    "experiments/bench_independent_factorized_replication.py": "a08f5662d6ab42ef7981422f0e606f9da727035f00bc3dccf5dc0d28fcbdadcb",
+    "experiments/analyze_factorized_certificate.py": "c53dc1a0f932d3c15186d6f89d704df640560c5b3dc652d01250c80e5b674d0e",
+    "experiments/bench_coco_crm_selected_candidates.py": "f254967c30df6d107bcfd8f91dfb6e6fbb906eba58253d5a3eec21c75be54a45",
+    "experiments/bench_goemo_model_upgrade_crm.py": "6e1b7951eefc772e5e75a5389b84d375efbef376447b1b558fce8a4c41b4efc0",
+    "experiments/bench_goemo_score_transfer.py": "e997985b1651b2105ef34a858776e5536e38f4f8e659bfae26718055320d13d7",
+    "experiments/summarize_goemo_strict_upgrade.py": "006e9a9cd0a292e8f60b9b99981dac4f123db22a259343ced48f40fa85534b5b",
+    "experiments/verify_theory_strengthening.py": "7abb9fa222db314d50779cd32bb710ae1adee95f2498600f524d52ad45ba1eda",
+    "experiments/simulate_certificate_calibration.py": "e77bf0ac9ed9f086d058f436c066a66f5b1e6e4e01850d9c1fe91e91f9dc14d8",
+    "experiments/direct_cell_certificate.py": "6f473f498e2b9e5fc8ea526565ed50cec30647eeea7fc33944da9367aa4b2301"
+  },
+  "archives": {
+    "data/goemo_tfidf_to_qwen_strict_s42_t50.json.gz": {
+      "comparisons": 8750,
+      "sha256": "bbedd0c4bc3de19c6213215c640ab31dcc55d0c2b38857a4e90e5dbce161f8eb",
+      "source_npy_sha256": "60925b7b71efa1129cbdf0bd5fb0cd6837add71295182c5f8f1f8d1ff92a62f2",
+      "bytes": 762770,
+      "conversion": "All records and numerical fields retained; JSON, no pickle; machine paths normalized."
+    },
+    "data/goemo_tfidf_to_qwen_strict_s43_t50.json.gz": {
+      "comparisons": 8750,
+      "sha256": "030d2f80ed48c23d9a17478f6b159a4c14b922fa9ee63bb4fdae5a170c9d7fe1",
+      "source_npy_sha256": "449ec0fac9d375d1e66f2d0feb86ddf0f690f8b9976e076358381c469d755d20",
+      "bytes": 773715,
+      "conversion": "All records and numerical fields retained; JSON, no pickle; machine paths normalized."
+    },
+    "data/goemo_tfidf_to_qwen_strict_s44_t50.json.gz": {
+      "comparisons": 8750,
+      "sha256": "7ad56e3242bf61a9ce1045b0cfb16a9c998fedaf979c7cb521b5bddf5dffb88f",
+      "source_npy_sha256": "26e10a5cf51bcc723c0dcb0579dbb7109d74a25f73cddef8a9d5221118f881e0",
+      "bytes": 769485,
+      "conversion": "All records and numerical fields retained; JSON, no pickle; machine paths normalized."
+    },
+    "data/goemo_tfidf_to_modernbert_strict_s42_t50.json.gz": {
+      "comparisons": 8750,
+      "sha256": "2ae0611ceb716bf44231a8c6aecef23edea7163e549d8cf5a0625d901ef766b6",
+      "source_npy_sha256": "bd28e583269a950d7353b25d65edd29f3c570ba07e35297a92fb52d55552793a",
+      "bytes": 770040,
+      "conversion": "All records and numerical fields retained; JSON, no pickle; machine paths normalized."
+    },
+    "data/goemo_tfidf_to_modernbert_strict_s43_t50.json.gz": {
+      "comparisons": 8750,
+      "sha256": "20d105d48b410a34dbef9d8962aa06fa0457274a79631f24fbf87550a30b1c55",
+      "source_npy_sha256": "2f720a1ac2951bdb2b54de3cbdb245e49192217f4e522be132690d9eb50ea396",
+      "bytes": 758076,
+      "conversion": "All records and numerical fields retained; JSON, no pickle; machine paths normalized."
+    },
+    "data/goemo_tfidf_to_modernbert_strict_s44_t50.json.gz": {
+      "comparisons": 8750,
+      "sha256": "808707e45c2f7a4cd98c4e50376ae247681a985eb831c69b014f5d3fab584839",
+      "source_npy_sha256": "4e3a7207c8adb12198e735ff2d4fcea87a67493d4505642c5d09c6850e3e3cba",
+      "bytes": 759910,
+      "conversion": "All records and numerical fields retained; JSON, no pickle; machine paths normalized."
+    },
+    "data/goemo_roberta_to_qwen_strict_s42_t50.json.gz": {
+      "comparisons": 8750,
+      "sha256": "06c36d571c0920be4107131f05b5d273ed6cd564221da34933f3307da02b32c8",
+      "source_npy_sha256": "a984c92e79dfc5e0ec163f3e3d5d927a3be24170ae7a34e594b7c64220864702",
+      "bytes": 729851,
+      "conversion": "All records and numerical fields retained; JSON, no pickle; machine paths normalized."
+    },
+    "data/goemo_roberta_to_qwen_strict_s43_t50.json.gz": {
+      "comparisons": 8750,
+      "sha256": "0dfab870163d4d358e2f9f7d2e7c7a342c2ef89370c58b521ba4dad70a8ff1d8",
+      "source_npy_sha256": "4cbf94868fa9358a5ecaf2206343ee09a2a000a395384d927d01a36ef332038e",
+      "bytes": 728630,
+      "conversion": "All records and numerical fields retained; JSON, no pickle; machine paths normalized."
+    },
+    "data/goemo_roberta_to_qwen_strict_s44_t50.json.gz": {
+      "comparisons": 8750,
+      "sha256": "9ec99ccf44af65abd81a18b0267305e41de9fe49c67de91c7fb31a202609de32",
+      "source_npy_sha256": "a0a511a2f41843158468f20bb743599156df9547754db0121124f73fed92bb6b",
+      "bytes": 724657,
+      "conversion": "All records and numerical fields retained; JSON, no pickle; machine paths normalized."
+    },
+    "data/goemo_roberta_to_modernbert_strict_s42_t50.json.gz": {
+      "comparisons": 8750,
+      "sha256": "1af96876c2775bdfebf1aedac8b2341716ab819ab91bf401276204da25f95106",
+      "source_npy_sha256": "eaae4241383bdfa8c97a2b73b8e5d849fe40ca81444039a4c29e4ae76d61b61c",
+      "bytes": 727901,
+      "conversion": "All records and numerical fields retained; JSON, no pickle; machine paths normalized."
+    },
+    "data/goemo_roberta_to_modernbert_strict_s43_t50.json.gz": {
+      "comparisons": 8750,
+      "sha256": "ab4b782fc0c803e1e9f5445e6f51a162be8586bbd8388cb3af41f0145342ce07",
+      "source_npy_sha256": "aa7804ca971e4397151b1048c164a3a57a84b7f32b612d6b255e51c16806815d",
+      "bytes": 723855,
+      "conversion": "All records and numerical fields retained; JSON, no pickle; machine paths normalized."
+    },
+    "data/goemo_roberta_to_modernbert_strict_s44_t50.json.gz": {
+      "comparisons": 8750,
+      "sha256": "885eb74b4c45eb2c5a56cceac4fbf87952f642b84a761a04f6ba943f41b7cb80",
+      "source_npy_sha256": "57b913b8e7154d85b208256ebc928cba314411c3c8628f34033fb95d103e3e60",
+      "bytes": 728243,
+      "conversion": "All records and numerical fields retained; JSON, no pickle; machine paths normalized."
+    },
+    "data/coco_crm_dinov2_full117k_m25_fixed_iid_s100_d05_pop.json.gz": {
+      "comparisons": 63000,
+      "sha256": "c68d1a65d07a3d213eb3216aa0dbe5fed5d4b7b35efb3a4138466cb8ed706893",
+      "source_npy_sha256": "a2f4e1c39bdea329220b60bc9ec9295bd6b169f1f79f411150c1da3071b44513",
+      "bytes": 12389637,
+      "conversion": "All records and numerical fields retained; JSON, no pickle; machine paths normalized."
+    },
+    "data/coco_crm_dinov2_full117k_m25_fixed_iid_s50_d05_pop_split1.json.gz": {
+      "comparisons": 31500,
+      "sha256": "da3ddea7305d848c73d02dd0d969c8e32159a2f4255dcf112db50c804a6d7683",
+      "source_npy_sha256": "f86ede0430f59831208ea4970d77ed1186c7d2fd86c40174b296a029fad830f6",
+      "bytes": 6283930,
+      "conversion": "All records and numerical fields retained; JSON, no pickle; machine paths normalized."
+    },
+    "data/coco_crm_dinov2_full117k_m25_fixed_iid_s50_d05_pop_split2.json.gz": {
+      "comparisons": 31500,
+      "sha256": "2761630000ae9e0659ac8f97af97c541b3fcafb06eb1ba3e850f2353c18fcf21",
+      "source_npy_sha256": "eb2dc336946e8300bb5c02cf36eda474a64b846fd735c4dcc10f74a6e77ed0d9",
+      "bytes": 6271611,
+      "conversion": "All records and numerical fields retained; JSON, no pickle; machine paths normalized."
+    }
+  }
+}

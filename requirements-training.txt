@@ -1,0 +1,13 @@
+-r requirements.txt
+torch>=2.5
+torchvision>=0.20
+transformers==4.57.6
+datasets>=4,<5
+accelerate>=1
+scikit-learn>=1.5
+Pillow>=10
+matplotlib>=3.8
+pyarrow>=15
+wilds>=2
+open_clip_torch>=2
+timm>=1

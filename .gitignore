@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+.env
+*.log
+checkpoints/
+cache/
+reproduced/
+*.npy
+*.npz
+*.pt
+*.pth
+*.safetensors
